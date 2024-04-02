@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page de Caroline</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <header class="container text-center">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1 class="mb-3">¡Domina tus Finanzas con Caroline!</h1>
+                <p>Descubre nuestro curso en línea y perfecciona tus habilidades financieras.</p>
+            </div>
+            <div class="col-md-6 text-md-right">
+                <img src="./imagen1.svg" alt="Imagen financiera" class="logo img-fluid">
+            </div>
+        </div>
+    </header>
+
+        <nav class="navbar">
+            <div class="logo">
+                <ul class="nav-links">
+                  <li> <img src="logos/whatsapp.svg" alt="Logo"> 811-123-4567</li>
+                  <li> <img src="logos/instagram.svg" alt="Logo"> @caroytusfinanzas</li>
+                  <li> <img src="logos/facebook.svg" alt="Logo"> Caro y tus Finanzas</li>
+                  <li> <img src="logos/sobre.svg" alt="Logo"> caroline.sada@gmail.com</li>
+                </ul>
+        </nav>
+    
+
+    <main class="py-5">
+        <div class="container">
+            <section id="about">
+                <h2>Bienvenida al primer curso de Contabilidad <br>
+                    por: </h2>
+                <p>Caroline Sada</p>
+            </section>
+            <figure class="equipo text-center">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <img src="imagen2.svg" alt="hero" class="img">
+                    </div>
+                    <div class="col-md-6" style="text-align: left;">
+                        <div class="content">
+                            <div class="title">
+                                <h2 class="heading" style="text-align: left;">Sobre el curso:</h2>
+                                <div class="tag tag--1">#emprendedores</div>
+                            </div>
+                            <p class="description">
+                                Este es un proyecto que nace del deseo de facilitar a las emprendedorxs mexicanxs herramientas metodológicas y formativas que les permitan construir su camino a la independencia económica con mayor facilidad. Estoy convencida de que saber llevar tus finanzas personales es una forma de autocuidado que te dará las herramientas para que el dinero no sea un impedimento, si no un potenciador de tus metas. Recuerda que ser independiente económicamente es un paso en la dirección correcta en el ejercicio de tu libertad. Una vez más bienvenidxs, comencemos.
+                            </p>
+                            <div class="details">
+                                <p class="detail">
+                                    <span class="emoji">Curso digital para emprendedores</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </figure>
+            
+            
+            <br>
+            <br>
+            <section id="features">
+                <h2>Características del Curso</h2>
+                <ul>
+                    <li>Lecciones prácticas y de fácil comprensión.</li>
+                    <li>Acceso ilimitado las 24 horas, los 7 días de la semana, para que aprendas a tu propio ritmo.</li>
+                    <li>Material actualizado y relevante para aquellos interesados en el mundo de los negocios.</li></li>
+                    <li>Soporte técnico y asesoramiento personalizado incluido.</li>
+                    <li>Certificado de finalización</li>
+                </ul>
+            </section>
+            
+            <section id="signup">
+                <p>No dejes pasar esta oportunidad para fortalecer tus habilidades financieras. <br>¡Regístrate ahora mismo!</p>
+                <h2>Completa el formulario</h2>
+                <form id="register-form">
+                    <input type="text" id="nombre" class="form-control" placeholder="Nombre" required>
+                    <div id="nombre-error" class="error-message"></div>
+                    <input type="text" id="apellido" class="form-control" placeholder="Apellido" required>
+                    <div id="apellido-error" class="error-message"></div>
+                    <input type="tel" id="telefono" class="form-control" placeholder="Teléfono" required>
+                    <div id="telefono-error" class="error-message"></div>
+                    <input type="email" id="email" class="form-control" placeholder="Correo electrónico" required>
+                    <div id="email-error" class="invalid-feedback"></div>
+                    <button type="submit" class="btn btn-primary">Accede al curso</button>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer style="background-color: #C272AC; color: #ffffff; text-align: center; padding: 10px 0;">
+        <p>© 2024 Caroline Sada. Todos los derechos reservados.</p>
+    </footer>
+    
+    
+    <!-- Agregar el archivo JavaScript -->
+    <script src="./js/script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+</body>
+</html>
