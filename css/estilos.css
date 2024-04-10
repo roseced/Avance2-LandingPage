@@ -86,7 +86,6 @@ header {
 h1{
     margin-bottom: 20px;
     display: inline-block; /* Asegura que el título y la imagen estén en la misma línea */
-
 }
 
 header img {
@@ -136,14 +135,13 @@ h1 {
 
 section {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 section h2 {
     text-align: center;
     color: #7B3963; 
     font-family: 'arsenal';
-    font-size: 20px;
 }
 
 section p {
